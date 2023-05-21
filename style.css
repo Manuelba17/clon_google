@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: #202124;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;   
+
+}
+
+header svg{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+main{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-self: center;
+    gap: 30px;   
+
+}
+
+
+
+#input-search{    
+    padding: 12px 0;
+    outline: none;
+    color: azure;
+    border: none;
+    background: #202124;
+    flex-grow: 1;
+    background: transparent;
+}
+
+.input{
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    padding: 5px 8px 0 14px;
+    
+}
+
+section svg{
+    position: block;
+    z-index: 1;
+    padding-right: 13px;
+    margin-top: -5px;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+}
+
+
+.input:hover{
+   
+   background-color: #303134;
+}
+
+
+header img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn-search{
+    background-color: #303134;
+    font-size: 14px;
+    color: #e8eaed;
+    padding: 10px;
+    border: 1px solid #303134;
+    border-radius: 4px;    
+    margin: 11px 4px;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.btn-search:hover{
+    border: 1px solid #5f6368;
+}
+
+#logo{
+    border-radius: none;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+footer {    
+    display: flex;
+    flex-direction: column;    
+}
+
+footer div p{
+    background-color: #171717;
+    color: #9aa0a6;
+    padding: 15px 30px;
+    font-size: 15px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #171717;
+    border-top: 1px solid #3c4043;
+    padding: 15px 20px;
+    
+}
+
+.foot div a{
+    padding: 15px;
+    background-color: #171717;    
+    color: #999da2;
+}
+
+.foot div a:hover{
+    text-decoration: underline;
+}
+
+
+
